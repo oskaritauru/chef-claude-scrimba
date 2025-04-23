@@ -4,7 +4,7 @@ This is a solution to the [Chef Claude challenge on Scrimba React course](https:
 
 You need to create your own API key on the [Hugging Face website](https://huggingface.co/) in order to test the application. You can attach the API key to your code by creating a .env file in the root of the project, where you write VITE_HF_ACCESS_TOKEN= followed by your generated API key.
 
-Warning: Keep your API key secure and do not share it publicly. Exposing your API key can lead to unauthorized access to your account and may result in unexpected charges or data breaches. Always store your API key in a secure location, such as a .env file, and avoid hardcoding it directly into your source code.
+<span style="color: red;">Warning: Keep your API key secure and do not share it publicly. Exposing your API key can lead to unauthorized access to your account and may result in unexpected charges or data breaches. Always store your API key in a secure location, such as a .env file, and avoid hardcoding it directly into your source code.</span>
 
 ### Built with
 
