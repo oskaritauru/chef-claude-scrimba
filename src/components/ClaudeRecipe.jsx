@@ -1,10 +1,11 @@
-import ReactMarkdown from "react-markdown";
+import ReactMarkdown from "react-markdown"; // Importing the ReactMarkdown component for rendering Markdown content
 
+// Defining a functional component named ClaudeRecipe that takes props as an argument
 export default function ClaudeRecipe(props) {
   return (
     <section className="suggested-recipe-container" aria-live="polite">
-      <h2>Chef Claude Recommends:</h2>
-      <ReactMarkdown>{props.recipe}</ReactMarkdown>
+      <h2>Chef Claude Recommends:</h2>{" "}
+      <ReactMarkdown>{props.recipe}</ReactMarkdown>{" "}
     </section>
   );
 }

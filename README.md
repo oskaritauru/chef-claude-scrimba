@@ -1,12 +1,31 @@
-# React + Vite
+# Chef Claude
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a solution to the [Chef Claude challenge on Scrimba React course](https://scrimba.com/learn-react-c0e).
 
-Currently, two official plugins are available:
+You need to create your own API key on the [Hugging Face website](https://huggingface.co/) in order to test the application. You can attach the API key to your code by creating a .env file in the root of the project, where you write VITE_HF_ACCESS_TOKEN= followed by your generated API key.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Warning: Keep your API key secure and do not share it publicly. Exposing your API key can lead to unauthorized access to your account and may result in unexpected charges or data breaches. Always store your API key in a secure location, such as a .env file, and avoid hardcoding it directly into your source code.
 
-## Expanding the ESLint configuration
+### Built with
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Semantic HTML5 markup
+- CSS custom properties
+- React
+
+### Screenshot
+
+![chef-claude](src/images/chef-claude.png)
+
+### What I learned
+
+- API Integration
+- Learned how to create API key and use it in application
+- HTML and CSS Skills
+- React Usage
+- Component-Based Development
+- State and Props
+- React Hooks, such as useState and useEffect
+- State Management
+- User Interface Design
+- Debugging and Problem-Solving
+- Code Organization

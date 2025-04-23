@@ -29,6 +29,8 @@ header > h1 {
 
 main {
   padding: 30px 30px 10px;
+  margin: auto;
+  max-width: 1200px;
 }
 
 .add-ingredient-form {
@@ -116,4 +118,9 @@ ul.ingredients-list > li {
 .suggested-recipe-container ul li,
 .suggested-recipe-container ol li {
   margin-bottom: 8px;
+}
+
+.loading-spinner {
+  margin-top: 20px;
+  margin-left: 30px;
 }
